@@ -1,0 +1,697 @@
+
+
+
+
+/* Prevents font size changes after orientation change in IE on windows phones*/ 
+
+html{
+  
+    -webkit-text-size-adjust:100%;  
+    -ms-text-size-adjust:100%;   
+  
+}
+
+/* Applies a natural box model layout to all elements */ 
+
+*{
+  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+
+}
+  
+  a{
+    
+    text-decoration: none;
+  }
+  
+  
+
+body {
+  
+  
+  font-family: 'Exo 2', sans-serif;
+  padding-left: 10px;
+  
+}
+
+
+
+
+img, video {
+  
+width: 100%;
+ 
+}
+
+
+  
+
+
+.container{
+  
+  width: 80%;
+  height: 100%;
+  margin: 100px auto;
+}
+ 
+  /*  first number top and bottom, second number right and left sets left and right automatically to fit screen*/
+
+
+
+/* come back to later */
+
+
+
+
+
+
+/* come back to later */
+
+
+
+/* --------------------------MAIN CSS*-------------------------------*/
+
+/* --------------------------Header*-------------------------------*/
+  
+.headerC {
+  position: fixed;
+  width:100%;
+  background-color:white;
+  z-index: auto;
+  border-bottom: 2px solid rgb(163, 228, 215);
+  
+}
+
+
+}
+
+.logo {
+  
+  position:absolute;
+  top: 7px;
+  left: 0px;
+  height: 100px;
+  
+  }
+  
+  
+.logo img {
+   
+    position:relative;
+    width: 100px;
+    left:5px;
+
+}
+
+
+.searchBarWrap{
+  
+  position:absolute;
+  top: 30px;
+  right: -10px;
+  height:50px;
+  width: 120px;
+}
+
+
+.searchTerm {
+  
+  position:relative;
+  width:55%;
+  border: 3px solid #00B4CC;
+  border-radius: 5px;
+}
+
+
+.searchButton{
+  
+  
+position:absolute;
+color: white;
+border-radius: 5px;
+background: #00B4CC;
+border-color: teal;
+  
+  
+}
+
+.mainImage img{
+  
+  width:100%;
+}
+
+
+.imageText{
+  
+  padding-top:100px;
+  border-color:black;
+  border-width: thick;
+  
+}
+
+.picText{
+  
+  position:absolute;
+  top: 20%;
+  background-color:rgba(153, 51, 255, 0.2);
+  color:white;
+  font-size:large;
+  width:auto;
+  height: auto;
+  padding-top:-5px;
+  
+}
+
+
+/* --------------------------image/nav*-------------------------------*/
+
+
+ul {list-style: none}
+
+.imageNav{
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+ 
+ 
+}
+
+.mainImage{
+
+  
+
+}
+
+.navText div{
+  
+color:rgb(204, 255, 255);
+text-align: left;
+  padding-left: 10px;
+
+
+}
+
+.navC{
+background-color: rgba(0, 77, 77, 0.8);
+text-align: -10 left;
+padding: 4px;
+border-top:1px solid white;
+width:100%;
+
+}
+
+}
+/* --------------------------image/nav*-------------------------------*/
+
+.welcome{
+  
+  border-color: black;
+  border-width: thick
+} 
+
+
+H3{
+  
+  color:white;
+  background: rgba(0, 77, 77, 0.8);
+  width:97%;
+   
+  
+  
+}
+
+
+h4, h2{
+  
+  color:rgb(26, 82, 118);
+}
+
+.aoeWrap{
+  
+  color:navy;
+  
+}
+
+
+
+.welcomeSocial{
+  
+background-color:rgb(171, 235, 198);
+  
+}
+
+
+
+.smLinks{
+  
+  text-align:center;
+  color: rgb(26, 82, 118) ;
+  padding-left:10px;
+  
+}
+
+
+
+.fa-linkedin, .fa-twitter, .fa-facebook, .fa-instagram   {
+  
+  font-size: 40px;
+  
+  
+}
+
+.quickContact a{
+  
+color: rgb(26, 82, 118);
+  
+}
+
+.fa-envelope, .fa-comment, .fa-mobile {
+  
+  font-size: 35px;
+  color: rgb(26, 82, 118);
+}
+
+
+
+.fa-mobile{
+  
+  font-size: 55px;
+}
+
+
+
+.siteMapMain{
+  
+  background-color:darkslategray;
+}
+
+
+.siteMapMain p {
+  
+  color:white;
+  
+}
+
+.siteMapMain ul{
+  
+  color:deepskyblue
+}
+    
+    
+.mobPhone{
+      
+      display:flex;
+      flex-grow: 2;
+	  width: 100%;
+    justify-content: flex-end;
+	justify-content: flex-start;
+	justify-content: center;
+	justify-content: space-around;
+	justify-content: space-between;
+      
+  }
+  
+
+
+.mobile{
+  
+ text-align: center;
+ width:50%;
+ padding-top: 5%;
+}
+  
+
+
+
+.emailC {
+      
+      display:flex;
+      flex-grow: 2;
+	  width: 100%;
+    justify-content: flex-end;
+	justify-content: flex-start;
+	justify-content: center;
+	justify-content: space-around;
+	justify-content: space-between;
+ 
+      
+  }
+  
+.email{
+
+  
+ text-align: left;
+ width:50%;
+ padding-top: 10px;
+word-wrap: break-word;
+
+}
+  
+.envelope{
+  text-align: center;
+ width:50%;
+ padding-top: 15%;
+  
+}
+
+  
+.messageC{
+      
+      display:flex;
+      flex-grow: 2;
+	  width: 100%;
+    justify-content: flex-end;
+	justify-content: flex-start;
+	justify-content: center;
+	justify-content: space-around;
+	justify-content: space-between;
+      
+  }
+  
+.message{
+
+  
+ text-align: left;
+ width:50%;
+ padding-top: 5%;
+
+
+}
+  
+.bubble{
+  text-align: center;
+ width:50%;
+ padding-top: 12%;
+  
+}
+
+.address{
+  
+text-align:left;
+  
+}
+  
+  
+.siteMap li{
+  
+  text-underline-position: below;
+  text-decoration:underline;
+  text-decoration-color: rgb(222, 208, 7) ;
+  padding-bottom: 10px;
+  
+  
+}
+
+.line{
+  
+  border-left: 6px solid rgb(222, 208, 7) ;
+  height:200px;
+  
+}
+
+
+.areaOW div {
+  
+  border-bottom: 2px solid rgb(222, 208, 7) ;
+  color:rgb(48, 191, 218);
+  
+}
+
+
+.siteMap {
+      
+      display:flex;
+	  width: 100%;
+   
+	
+	
+ 
+      
+  }
+  
+.line{
+
+  
+text-align: left;
+width:5%;
+height:317px;
+margin:10px;
+
+
+}
+  
+.siteMapOne, .siteMapTwo, .siteMapThree {
+ text-align: left;
+ width:80%;
+ padding-top:0px;
+
+  
+}
+
+
+/*.siteMapThree {
+text-align:left;
+ width:80%;
+ padding-top:0px;
+  
+}*/
+
+
+.areaMain{
+  
+  display:flex;
+  flex-wrap:wrap;
+ 
+}
+
+  .article, .quickContact, .aoeWrap{
+ text-align: left;
+
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ footer {
+  padding-top: 50px;
+  background-color:darkslategray;
+  color:white;
+}
+
+
+
+
+
+/* --------------------------------------
+
+MOBILE STYLES - 568px SCREEN RESOLUTION 
+
+
+
+------------------------------------*/ 
+
+
+
+@media screen and (min-width:568px){
+  
+
+  
+/* --------------------------------------
+
+MOBILE STYLES - 768px SCREEN RESOLUTION 
+
+
+
+------------------------------------*/ 
+
+
+
+@media screen and (min-width: 768px){
+  
+  .headerC{
+  
+  width:100%;
+  height:100px;
+  background-color:white;
+  position:fixed;
+  z-index: 300;
+  border-bottom: 2px solid rgb(163, 228, 215);
+  
+  
+}
+  
+  
+  
+  
+  
+  .searchTerm{
+  position:relative;
+  width: 80%;    
+  border: 3px solid #00B4CC;
+  border-radius: 5px;
+     
+}
+
+  .searchBarWrap{
+  
+  position:absolute;
+  top: 30px;
+  right: 10px;
+  height:50px;
+  width: 300px;
+}
+
+
+  
+  
+  .mainImage img{
+  
+  
+}
+
+
+.imageText{
+  
+  padding-top:100px;
+  border-color:black;
+  border-width: thick;
+  
+}
+
+.picText{
+  
+  position:absolute;
+  top: 60%;
+  left:35%;
+  background-color:rgba(153, 51, 255, 0.2);
+  color:white;
+  font-size: 30px;
+  width:auto;
+  height: auto;
+  padding-top:-5px;
+padding-left: 10px;
+  
+}
+  
+  .mainImage{
+    
+    
+    width:65%;
+    position:absolute;
+    left: 35%;
+    margin-top: 1px;
+    
+    
+  }
+  
+  .navC{
+    
+
+    position:relative;
+    left:0%;
+    height:494px;
+    font-size: 30px;
+    
+  }
+  
+  
+
+
+
+
+
+.navText div{
+  
+color:white;
+text-align: left;
+  padding-left: 10px;
+  position:relative;
+
+
+}
+
+.navC{
+background-color: rgba(0, 77, 77, 0.8);
+text-align: -10 left;
+padding: 4px;
+border-top:1px solid white;
+width:35%;
+
+}
+  
+
+
+.article, .quickContact, .aoeWrap{
+  width:33%
+    
+  }
+    
+  
+
+
+  /*H3{
+    
+    transform:rotate(90deg);
+    transform-origin: 00;
+    display:flex;
+   
+  }*/
+  
+/* --------------------------------------
+
+MOBILE STYLES - 1024px SCREEN RESOLUTION 
+
+
+
+------------------------------------*/ 
+
+
+
+@media screen and (min-width: 1024px){
+  
+  
+
+
+
+
+  
+  
+}
+
+ 
+/* --------------------------------------
+
+MOBILE STYLES - 1280px SCREEN RESOLUTION 
+
+
+
+------------------------------------*/ 
+
+
+
+@media screen and (min-width: 1280px){
+  
+
+
+}
+
+
+
